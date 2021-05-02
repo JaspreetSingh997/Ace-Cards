@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------ IMPORTING FONTS ---------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap&&family=Bad+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45a294144e.js" crossorigin="anonymous"></script>
+
+    <!-------- LINKING THE CSS FILES --------->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!--------- LINKING THE SCRIPTS --------->
+    <script src="Js/tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    
+    <!------ TITLE ------>
+    <title>Ace</title>
+</head>
+<body>
+    <div class="container">
+       <div class="flex-container">
+            <div class="flex-box">
+                <div class="ace-of-spades">
+                    <span class="top-left">&spades;</span>
+                    <span class="top-left-text">A</span>
+                    <span class="center-main">&spades;</span>
+                    <span class="bottom-right">&spades;</span>
+                    <span class="bottom-right-text">A</span>
+                </div>
+            </div>
+            <div class="flex-box">
+                <div class="ace-of-clubs">
+                    <span class="top-left">&clubs;</span>
+                    <span class="top-left-text">A</span>
+                    <span class="center-main">&clubs;</span>
+                    <span class="bottom-right">&clubs;</span>
+                    <span class="bottom-right-text">A</span>
+                </div>
+            </div>
+            <div class="flex-box">
+                <div class="ace-of-hearts">
+                    <span class="top-left">&hearts;</span>
+                    <span class="top-left-text">A</span>
+                    <span class="center-main">&hearts;</span>
+                    <span class="bottom-right">&hearts;</span>
+                    <span class="bottom-right-text">A</span>
+                </div>
+            </div>
+            <div class="flex-box">
+                <div class="ace-of-diamonds">
+                    <span class="top-left">&diamondsuit;</span>
+                    <span class="top-left-text">A</span>
+                    <span class="center-main">&diamondsuit;</span>
+                    <span class="bottom-right">&diamondsuit;</span>
+                    <span class="bottom-right-text">A</span>
+                </div>
+            </div>            
+       </div>
+    </div>
+    
+    <script type="text/javascript" src="Js/tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".flex-box"), 
+        {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+</html>

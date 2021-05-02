@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;    
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: #202d3f; 
+}
+
+.flex-container
+{
+    background: #182538;
+    position: absolute; 
+    width: 100%;
+    height: 80%;
+    top: 10%;
+}
+.flex-box
+{
+    position: relative;
+    margin: 20px;
+    top: 15%;
+    left: 1%;
+    width: 20%;
+    height: 55vh;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/**** STYLING ACE OF SPADES ******/
+
+.ace-of-spades
+{
+    display: block;
+    color: #CDCDCD;
+}
+.ace-of-spades .top-left
+{
+    position: absolute;
+    font-size: 40px;
+    top: 6%;
+    left: 8%;
+}
+.ace-of-spades .top-left-text
+{
+    position: absolute;
+    left: 8%;
+    font-size: 30px;
+}
+.ace-of-spades .center-main
+{
+    position: absolute;
+    font-size: 300px;
+    bottom: 2%;
+    left: 23%;
+}
+.ace-of-spades .bottom-right
+{
+    position: absolute;
+    top: 78%;
+    font-size: 40px;
+    left: 82%;
+    transform: rotateX(180deg);
+}
+.ace-of-spades .bottom-right-text
+{
+    position: absolute;
+    top: 85%;
+    font-size: 30px;
+    left: 82%;
+    transform: rotateX(180deg);
+}
+
+/**** STYLING ACE OF CLUBS ******/
+
+.ace-of-clubs
+{
+    display: block;
+    color: #FAE481;
+}
+.ace-of-clubs .top-left
+{
+    position: absolute;
+    font-size: 40px;
+    top: 7%;
+    left: 8%;
+}
+.ace-of-clubs .top-left-text
+{
+    position: absolute;
+    left: 8.5%;
+    font-size: 30px;
+}
+.ace-of-clubs .center-main
+{
+    position: absolute;
+    font-size: 300px;
+    bottom: 2%;
+    left: 21%;
+}
+.ace-of-clubs .bottom-right
+{
+    position: absolute;
+    top: 76%;
+    font-size: 40px;
+    left: 82.3%;
+    transform: rotateX(180deg);
+}
+.ace-of-clubs .bottom-right-text
+{
+    position: absolute;
+    top: 85%;
+    font-size: 30px;
+    left: 83%;
+    transform: rotateX(180deg);
+}
+
+/**** STYLING ACE OF Hearts ******/
+
+.ace-of-hearts
+{
+    display: block;
+    color: #CDCDCD;
+}
+.ace-of-hearts .top-left
+{
+    position: absolute;
+    font-size: 40px;
+    top: 7%;
+    left: 8%;
+}
+.ace-of-hearts .top-left-text
+{
+    position: absolute;
+    left: 8.5%;
+    font-size: 30px;
+}
+.ace-of-hearts .center-main
+{
+    position: absolute;
+    font-size: 300px;
+    bottom: 2%;
+    left: 23%;
+}
+.ace-of-hearts .bottom-right
+{
+    position: absolute;
+    top: 76%;
+    font-size: 40px;
+    left: 82.3%;
+    transform: rotateX(180deg);
+}
+.ace-of-hearts .bottom-right-text
+{
+    position: absolute;
+    top: 85%;
+    font-size: 30px;
+    left: 82.6%;
+    transform: rotateX(180deg);
+}
+
+/**** STYLING ACE OF Diamonds ******/
+
+.ace-of-diamonds
+{
+    display: block;
+    color: #FAE481;
+}
+.ace-of-diamonds .top-left
+{
+    position: absolute;
+    font-size: 40px;
+    top: 7%;
+    left: 8%;
+}
+.ace-of-diamonds .top-left-text
+{
+    position: absolute;
+    left: 8%;
+    font-size: 30px;
+}
+.ace-of-diamonds .center-main
+{
+    position: absolute;
+    font-size: 300px;
+    bottom: 2%;
+    left: 23%;
+}
+.ace-of-diamonds .bottom-right
+{
+    position: absolute;
+    top: 78%;
+    font-size: 40px;
+    left: 82%;
+    transform: rotateX(180deg);
+}
+.ace-of-diamonds .bottom-right-text
+{
+    position: absolute;
+    top: 85%;
+    font-size: 30px;
+    left: 82%;
+    transform: rotateX(180deg);
+}
