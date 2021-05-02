@@ -21,6 +21,14 @@ html
     background: #202d3f; 
 }
 
+.title
+{
+    position: absolute;
+    left: 35%;
+    font-size: 50px;
+    color: #FFF;
+    text-transform: uppercase;
+}
 .flex-container
 {
     background: #182538;
@@ -99,7 +107,7 @@ html
 .ace-of-clubs
 {
     display: block;
-    color: #FAE481;
+    color: #CDCDCD;
 }
 .ace-of-clubs .top-left
 {
@@ -187,7 +195,7 @@ html
 .ace-of-diamonds
 {
     display: block;
-    color: #FAE481;
+    color: #CDCDCD;
 }
 .ace-of-diamonds .top-left
 {
