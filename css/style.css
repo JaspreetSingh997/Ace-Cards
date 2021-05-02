@@ -63,7 +63,7 @@ html
 .ace-of-spades
 {
     display: block;
-    color: #CDCDCD;
+    color: #fff;
 }
 .ace-of-spades .top-left
 {
@@ -107,7 +107,7 @@ html
 .ace-of-clubs
 {
     display: block;
-    color: #CDCDCD;
+    color: #fff;
 }
 .ace-of-clubs .top-left
 {
@@ -151,7 +151,7 @@ html
 .ace-of-hearts
 {
     display: block;
-    color: #CDCDCD;
+    color: #fff;
 }
 .ace-of-hearts .top-left
 {
@@ -195,7 +195,7 @@ html
 .ace-of-diamonds
 {
     display: block;
-    color: #CDCDCD;
+    color: #fff;
 }
 .ace-of-diamonds .top-left
 {
@@ -215,7 +215,7 @@ html
     position: absolute;
     font-size: 300px;
     bottom: 2%;
-    left: 23%;
+    left: 24%;
 }
 .ace-of-diamonds .bottom-right
 {
